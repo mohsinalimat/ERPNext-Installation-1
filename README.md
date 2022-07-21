@@ -67,7 +67,7 @@ Notes*:
 
 - It's takes minimum one hour, based upon your internet connection
 
-- If you have any ERROR or SOMETHING contact me through email.
+- If you have any ERROR or SOMETHING contact me through below email.
 
 + Email:ranjithks@am.amrita.edu
 
