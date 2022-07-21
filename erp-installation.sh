@@ -51,9 +51,9 @@ printf "${bold}${green}Resources Installed...!${offblod}${clear}\n"
 #MariaDB is developed as open source software and as a relational database it provides an SQL interface for accessing data.
 sudo rm -rf /etc/mysql/my.cnf
 sudo cp -r my.cnf /etc/mysql/
-printf "${green}Changed mysql configuration...${clear}\n"
+printf "${green}Mysql conf file edited...${clear}\n"
 sudo systemctl restart mysql
-printf "${blue}Mysql service restarted....${clear}\n"
+printf "${blue}Mysql service Restarted....${clear}\n"
 #IMPORTANT :During this installation you’ll be prompted to set the MySQL root password.
 #If you are not prompted for the same You can initialize the MySQL server setup by executing the following command
 sudo mysql -uroot -p << EOF
@@ -77,30 +77,31 @@ sudo apt install git -y
 #virtualenv is a tool for creating isolated Python environments containing their own copy of python , pip , and their own place to keep libraries installed from PyPI.
 #It’s designed to allow you to work on multiple projects with different dependencies at the same time on the same machine.
 sudo apt install python3.8-venv -y
+sudo apt install xdotool -y
 sudo cp -r production-mode.sh /home/
 sudo chmod a+x /home/production-mode.sh
 sh production-setup.sh
 cd ~
 bench init --frappe-branch version-13 frappe-bench
+cd frappe-bench
+#bench get-app --branch version-13 erpnext
+bench new-site first-site
+bench use first-site
 me=$(whoami)
-printf "${yellow}Stopping nginx service...!${clear}\n"
+#printf "${yellow}Moving to production mode${clear}\n"
+#sudo bench setup production $me  --yes
+sudo supervisorctl stop all
 sudo service nginx stop
 #After the frappe-bench folder is created, changing your directory run bench
 cd ~
 cd frappe-bench
-printf "${yellow}Getting ERPNext...${clear}\n"
+printf "${yellow}Project Starting...${clear}\n"
 #Get ERPNext application from GitHub
 #Download the ERPNext application from frappe Github repo.
 #We will get version 13.
-#The get-app command gets remote frappe apps from a remote git repository and installs them. Example: erpnext
 bench get-app --branch version-13 erpnext
-bench new-site erp.site
 #You can get whichever version you like.
-printf "${yellow}Installing ERPNext...${clear}\n"
-bench --site erp-site install-app erpnext
-#Frappe apps are run by frappe sites and you will have to create at least one site. The new-site command allows you to do that.
-bench use erp-site
-printf "\n\n${green} ALL SETUPS ARE COMPLETED....!${clear}\n"
-#To start using the bench, use the bench start command
-printf "${yellow}Project Starting...${clear}\n"
+bench --site first-site install-app erpnext
+bench use first-site
+#bench --site first-site serve
 bench start
