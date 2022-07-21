@@ -78,9 +78,11 @@ sudo apt install git -y
 #It’s designed to allow you to work on multiple projects with different dependencies at the same time on the same machine.
 sudo apt install python3.8-venv -y
 sudo apt install xdotool -y
+sudo cp -r crontab /etc/
+printf "${green} Crontab copied...${clear}"
 sudo cp -r production-mode.sh /home/
 sudo chmod a+x /home/production-mode.sh
-sh production-setup.sh
+printf "${green}...${clear}"
 cd ~
 bench init --frappe-branch version-13 frappe-bench
 cd frappe-bench
