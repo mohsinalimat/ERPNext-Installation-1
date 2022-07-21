@@ -57,9 +57,9 @@ printf "${blue}Mysql service Restarted....${clear}\n"
 #IMPORTANT :During this installation you’ll be prompted to set the MySQL root password.
 #If you are not prompted for the same You can initialize the MySQL server setup by executing the following command
 sudo mysql -uroot -p << EOF
-alter user root@localhost identified by 'Frappe@123';
+alter user root@localhost identified by 'Erp@123';
 EOF
-printf "${bg_yellow}Mysql DB root password Frappe@123${clear}\n"
+printf "${bg_yellow}Mysql DB root password Erp@123${clear}\n"
 #Yarn is a JavaScript package manager that aims to be speedy, deterministic, and secure.
 #See how easy it is to drop yarn in where you were using npm before, and get faster, more reliable installs.
 #Yarn is a package manager for JavaScript.
@@ -87,12 +87,8 @@ cd ~
 bench init --frappe-branch version-13 frappe-bench
 cd frappe-bench
 #bench get-app --branch version-13 erpnext
-bench new-site first-site
-bench use first-site
-me=$(whoami)
-#printf "${yellow}Moving to production mode${clear}\n"
-#sudo bench setup production $me  --yes
-sudo supervisorctl stop all
+bench new-site erp-site
+bench use erp-site
 sudo service nginx stop
 #After the frappe-bench folder is created, changing your directory run bench
 cd ~
@@ -103,7 +99,6 @@ printf "${yellow}Project Starting...${clear}\n"
 #We will get version 13.
 bench get-app --branch version-13 erpnext
 #You can get whichever version you like.
-bench --site first-site install-app erpnext
-bench use first-site
-#bench --site first-site serve
+bench --site erp-site install-app erpnext
+bench use erp-site
 bench start
