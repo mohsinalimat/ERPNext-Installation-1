@@ -81,12 +81,6 @@ sudo -H pip3 install frappe-bench
 #Git allows multiple developers to work together on the same project with ease
 sudo apt install git -y
 sudo apt install python3.8-venv -y
-sudo apt install xdotool -y
-#You can setup the bench for production use by configuring two programs, Supervisor and nginx. If you want to revert your Production Setup to Development
-sudo cp -r crontab /etc/
-printf "${green} Crontab copied...${clear}\n"
-sudo cp -r production-mode.sh /home/
-sudo chmod a+x /home/production-mode.sh
 #Initialize the bench directory with Frappe framework using the following command
 cd ~
 bench init --frappe-branch version-13 frappe-bench
