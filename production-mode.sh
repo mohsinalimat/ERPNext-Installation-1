@@ -1,6 +1,9 @@
 cd ~
 #Go to file path
 cd frappe-bench
+sudo nginx -t
+sudo apt update -y
+sudo apt upgrade -y
 #Find username
 me=$(whoami)
 #Froduction setup
