@@ -64,9 +64,9 @@ sudo systemctl restart mysql
 printf "${blue}Mysql service Restarted....${clear}\n"
 #Once installed, secure the MariaDB and set the MariaDB root password 
 sudo mysql -uroot -p << EOF
-alter user root@localhost identified by 'Frappe@123';
+alter user root@localhost identified by 'Erp@123';
 EOF
-printf "${bg_yellow}Mysql DB root password Frappe@123${clear}\n"
+printf "${bg_yellow}Mysql DB root password Erp@123${clear}\n"
 #It is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
 sudo npm install -g yarn
 printf "${yellow}Installing Frappe-Bench${clear}\n"
