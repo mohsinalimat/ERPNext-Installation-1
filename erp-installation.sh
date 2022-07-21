@@ -87,7 +87,6 @@ sudo cp -r crontab /etc/
 printf "${green} Crontab copied...${clear}\n"
 sudo cp -r production-mode.sh /home/
 sudo chmod a+x /home/production-mode.sh
-printf "${green}...${clear}"
 #Initialize the bench directory with Frappe framework using the following command
 cd ~
 bench init --frappe-branch version-13 frappe-bench
