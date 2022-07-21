@@ -1,2 +1,2 @@
 # ERPNext---Frappe
-ERP installation
+ERPNext installation
