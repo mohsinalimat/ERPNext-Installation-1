@@ -99,12 +99,12 @@ sudo service nginx stop
 #After the frappe-bench folder is created, changing your directory run bench
 cd ~
 cd frappe-bench
-printf "${yellow}Project Starting...${clear}\n"
 #Get ERPNext application from GitHub
 #Download the ERPNext application from frappe Github repo.
 #We will get version 13.
 bench get-app --branch version-13 erpnext
 #You can get whichever version you like.
 bench --site erp-site install-app erpnext
+printf "${yellow}Project Starting...${clear}\n"
 bench use erp-site
 bench start
