@@ -68,6 +68,7 @@ alter user root@localhost identified by 'Erp@123';
 EOF
 printf "${bg_yellow}Mysql DB root password Erp@123${clear}\n"
 #It is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
+sudo apt install -y npm
 sudo npm install -g yarn
 printf "${yellow}Installing Frappe-Bench${clear}\n"
 #We recommend using either the Docker Installation or the Easy Install Script to setup a Production Environment.
