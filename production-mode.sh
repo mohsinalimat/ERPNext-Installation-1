@@ -1,3 +1,4 @@
+set -e
 cd ~
 #Go to file path
 cd frappe-bench
