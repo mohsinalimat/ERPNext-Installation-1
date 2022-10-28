@@ -149,7 +149,7 @@ ${clear}"
 sudo apt install -y curl
 sudo curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt update 
-sudo apt install -y nodejs mariadb-server redis-server python3-pip nginx python3-testresources npm
+sudo apt install -y nodejs mariadb-server redis-server python3-pip nginx python3-testresources
 sudo npm install -g yarn
 python3 -V > python-version.txt
 search=`grep --color 3.10 python-version.txt`
