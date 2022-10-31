@@ -225,6 +225,7 @@ $                          $
 $     Mysql root user      $
 $ Password is ${clear}${green}| Erp@123 | ${clear}${yellow} $
 $ _________________________$ ${clear}
+
 "
 sudo systemctl start mysql.service
 
