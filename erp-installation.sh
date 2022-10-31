@@ -117,8 +117,8 @@ function delay()
 
 printf  "${green}
  ________________________________________________________________________
-|									 |
-|                           ENTERING SCRIPT				 |
+|                                                                        |
+|                           ENTERING SCRIPT                              |
 |________________________________________________________________________|
 ${clear}\n"
 
@@ -227,7 +227,7 @@ $ Password is ${clear}${green}| Erp@123 | ${clear}${yellow} $
 $ _________________________$ ${clear}
 
 "
-sudo systemctl start mysql.service
+sudo systemctl start mysql
 
 
 #It is recommended to install Yarn through the npm package manager, which comes bundled with Node.js when you install it on your system.
@@ -244,6 +244,7 @@ sudo -H pip3 install frappe-bench
 #Git allows multiple developers to work together on the same project with ease
 sudo apt install git -y
 sudo apt install python3.10-venv -y
+sudo chmod 777 -R /etc/mysql/
 printf "${green}...${clear}"
 #Initialize the bench directory with Frappe framework using the following command
 cd ~
@@ -256,6 +257,9 @@ bench use frappe-site
 sudo service nginx stop
 cd ~
 cd frappe-bench
+bench get-app --branch version-14 erpnext
+bench --site erp-site install-app erpnex
+bench use erp-site
 printf "
 ${bld_green}
 
@@ -263,7 +267,6 @@ ${bld_green}
 
 ${clear}
 "
-bench use frappe-site
 
 printf "${yellow}
 ####################---Project Details---###################
@@ -313,12 +316,6 @@ progress 90 "Finalizing...          "
 progress 100 "Done                  "
 
 echo
-
-cd ~
-cd frappe-bench
-bench get-app --branch version-14 erpnext
-bench --site erp-site install-app erpnex
-bench use erp-site
 
 
 bench start
