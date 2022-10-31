@@ -242,6 +242,7 @@ sudo -H pip3 install frappe-bench
 #Git is a free, open-source, distributed version control system that handles source code changes in software projects of all sizes.
 #Git allows multiple developers to work together on the same project with ease
 sudo apt install git -y
+sudo apt install python3.10-venv -y
 printf "${green}...${clear}"
 #Initialize the bench directory with Frappe framework using the following command
 cd ~
