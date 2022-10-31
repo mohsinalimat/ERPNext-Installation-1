@@ -244,7 +244,6 @@ sudo -H pip3 install frappe-bench
 #Git allows multiple developers to work together on the same project with ease
 sudo apt install git -y
 sudo apt install python3.10-venv -y
-sudo chmod 777 -R /etc/mysql/
 printf "${green}...${clear}"
 #Initialize the bench directory with Frappe framework using the following command
 cd ~
