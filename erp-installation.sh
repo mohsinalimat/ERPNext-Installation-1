@@ -251,8 +251,8 @@ bench init --frappe-branch version-14 frappe-bench
 #change the directory to erpnext and create a new frappe site with the following command
 cd frappe-bench
 #Provide your password and hit Enter to create a new Frappe site
-bench new-site frappe-site
-bench use frappe-site
+bench new-site erp-site
+bench use erp-site
 sudo service nginx stop
 cd ~
 cd frappe-bench
