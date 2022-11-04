@@ -45,6 +45,15 @@ ERPNext
 ### STEP 2:
 
 
+  <strong>```Permission```</strong> to scripting file
+   
+```
+  $ chmod +x erp-installation.sh
+```
+
+### STEP 3:
+
+
   <strong>```RUN```</strong> erp-installation script file
    
 ```
