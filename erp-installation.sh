@@ -256,6 +256,7 @@ bench use erp-site
 sudo service nginx stop
 cd ~
 cd frappe-bench
+bench get-app payments
 bench get-app --branch version-14 erpnext
 bench --site erp-site install-app erpnex
 bench use erp-site
