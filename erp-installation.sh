@@ -142,12 +142,13 @@ sudo apt-get upgrade -y
 #The autoremove option removes packages that were automatically installed because some other package required them but, with those other packages removed, they are no longer needed.
 #Sometimes, an upgrade will suggest that you run this command.
 sudo apt autoremove -y
-
+sudo apt-get install -y git
 #This guide assumes you are using a personal computer, VPS or a bare-metal server.
 #You also need to be on a *nix system, so any Linux Distribution and MacOS is supported. However, we officially support only the following distributions.
 printf "${yellow}Installing nodejs${clear}\n"
 sudo apt install -y curl
 sudo curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+
 #Now you will add MariaDB to your server stack. ERPNext 12 requires MariaDB 10.2+ for proper operation.
 #Because Ubuntu 20.04 includes MariaDB 10.3 in its official repositories you can install this version using the apt command:
 #First, you will need to install Python and other packages required to build and set up Frappe framework.
@@ -158,7 +159,8 @@ Installing Resources
 
 ${clear}"
 
-sudo apt install -y nodejs mariadb-server redis-server python3-pip nginx python3-testresources
+sudo apt-get install -y python3-dev install python3-setuptools python3-pip virtualenv nodejs
+sudo apt install mariadb-server mariadb-client libmysqlclient-dev xvfb libfontconfig wkhtmltopdf
 printf "${bold}${green}
 
 Resources Installed...!
@@ -235,15 +237,12 @@ sudo npm install -g yarn
 printf "${yellow}Installing Frappe-Bench${clear}\n"
 #We recommend using either the Docker Installation or the Easy Install Script to setup a Production Environment.
 #For Development, you may choose either of the three methods to setup an instance.
-sudo pip3 install frappe-bench
+sudo -H pip3 install frappe-bench
 sudo systemctl restart mariadb
 sudo pip3 install frappe-bench
 printf "${green}Installing bench components...!${clear}\n"
-sudo -H pip3 install frappe-bench
 #Git is a free, open-source, distributed version control system that handles source code changes in software projects of all sizes.
 #Git allows multiple developers to work together on the same project with ease
-sudo apt install git -y
-sudo apt install python3.10-venv -y
 printf "${green}...${clear}"
 #Initialize the bench directory with Frappe framework using the following command
 cd ~
