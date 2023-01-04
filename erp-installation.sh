@@ -159,7 +159,7 @@ Installing Resources
 
 ${clear}"
 
-sudo apt-get install -y python3-dev install python3-setuptools python3-pip virtualenv nodejs python3.10-venv
+sudo apt-get install -y python3-dev python3-setuptools python3-pip virtualenv nodejs python3.10-venv
 sudo apt install mariadb-server mariadb-client libmysqlclient-dev xvfb libfontconfig wkhtmltopdf
 printf "${bold}${green}
 
