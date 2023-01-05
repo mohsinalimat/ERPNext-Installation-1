@@ -70,14 +70,6 @@ ERPNext
   $ sh erp-installation.sh
 ```
 
-### Finally:
-
-
-  <strong>```check```</strong> below URL
-  
-```
-  http://localhost:8000
-```
 
 #
 
@@ -90,4 +82,13 @@ Notes*:
 
 + Email:ranjithks@am.amrita.edu
 
+```
+
+### Finally:
+
+
+  <strong>```check```</strong> below URL
+  
+```
+  http://localhost:8000
 ```
