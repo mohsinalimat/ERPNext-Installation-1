@@ -45,6 +45,16 @@ ERPNext
 ### STEP 2:
 
 
+  <strong>```Change```</strong> Directory
+   
+```
+  $ cd ERPNext-Installation
+```
+
+
+### STEP 2:
+
+
   <strong>```Permission```</strong> to scripting file
    
 ```
