@@ -3,7 +3,7 @@
 # Summary       : Frappe-Framework with ERPNext                                #
 # Support       : ranjithks@am.amrita.edu                                      #
 # Created date  : Jul 21,2022                                                  #
-# Latest Modified date : Oct 20,2022                                           #
+# Latest Modified date : Jan 05,2022                                           #
 #                                                                              #
 ################################################################################
 
@@ -30,7 +30,7 @@ printf "${white}
 # Summary               : Frappe-Framework with ERPNext                         #
 # Support               : ${yellow}ranjithks@am.amrita.edu${clear}                               #
 # Created date          : Jul 21,2022                                           #
-# Latest Modified date  : Oct 20,2022                                           #
+# Latest Modified date  : Jan 05,2022                                           #
 # Created by            : ${blue}RANJITHKUMAR SEKAR${clear}                                     #
 #                                                                               #
 #################################################################################
