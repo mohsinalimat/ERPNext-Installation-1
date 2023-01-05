@@ -71,6 +71,16 @@ ERPNext
 ```
 
 
+### Finally:
+
+
+  <strong>```check```</strong> below URL
+  
+```
+  http://localhost:8000
+```
+
+
 #
 
 ```diff
@@ -82,13 +92,4 @@ Notes*:
 
 + Email:ranjithks@am.amrita.edu
 
-```
-
-### Finally:
-
-
-  <strong>```check```</strong> below URL
-  
-```
-  http://localhost:8000
 ```
