@@ -1,6 +1,4 @@
-# ERPNext- Installation
-
-<p align="center"> Last Update Jan 05, 2023</p>
+# ERPNext- Installation <p align="center"> Last Update Jan 05, 2023</p>
 
 <p align="center">
   <img width="200" src="https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/public/images/erpnext-logo.png" alt="ERPNext">
