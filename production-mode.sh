@@ -8,7 +8,7 @@ sudo apt upgrade -y
 #Find username
 me=$(whoami)
 #Froduction setup
-sudo bench setup production ${me} --yes
+sudo bench setup production ${me}
 #Update the the production mode
 sudo apt update
 #This file to run every 10 minutes. but, it requires only one time so this file removed
