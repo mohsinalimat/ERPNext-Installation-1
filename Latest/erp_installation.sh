@@ -226,6 +226,7 @@ sudo npm install -g yarn
 sudo apt-get install -y xvfb libfontconfig wkhtmltopdf
 # Bench is a CLI tool to manage Frappe Deployments. It provides an easy interface to help you setup and manage multiple sites and apps based on Frappe Framework.
 sudo -H pip3 install frappe-bench
+cd ~
 #The iced drink is generally made up of water, espresso, sugar, milk, ice and is shaken, blended or beaten to combine the ingredients.
 #It tends to be served with whipped cream and toppings such as sweet sauces and presented in a tall glass. Traditionally a Frappé is made with coffee, but it doesn't have to be!
 bench init frappe-framework --frappe-branch version-14
