@@ -102,6 +102,8 @@ Notes*:
 
 + Email:ranjithks@am.amrita.edu\
 
-- Once script fully completed refer this file path "/home/{username}/frappe-framework/Project_Details.txt" for installation credentials.
+- Once script fully completed refer below file path for installation credentials.
+
++ "/home/{username}/frappe-framework/Project_Details.txt"
 
 ```
