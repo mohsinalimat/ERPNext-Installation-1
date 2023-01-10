@@ -1,109 +1,111 @@
-# ERPNext- Installation
-#### Last Update Jan 10, 2023
 
-<p align="center">
-  <img width="200" src="https://raw.githubusercontent.com/frappe/erpnext/develop/erpnext/public/images/erpnext-logo.png" alt="ERPNext">
-  </p>
-  
-<h1 align="center">
-ERPNext
-</h1>
+# Frappe Framework with ErpNext
 
-## Introduction: 
-
- ERPNext is a free and open-source integrated Enterprise Resource Planning software developed by Frappe Technologies Pvt. Ltd. and is built on MariaDB database system using Frappe, a Python based server-side framework. ERPNext is a generic ERP software used by manufacturers, distributors and services companies.
-
-## Features:
-
-1. Accounting
-2. Warehouse Management
-3. CRM
-4. Sales
-5. Purchase
-6. HRMS
-7. Project Management
-8. Support
-9. Asset Management
-10. Quality Management
-11. Manufacturing
-12. Website Management
-13. Customize ERPNext
-14 And More
- 
-<b>```ERPNext```</b> is built on the <b>```Frappe Framework```</b>, a full-stack web app framework built with Python & JavaScript.
-
-## Installation:
-
-  Before you can use Frappe, you need to install it. We have a complete installation guide which covers all possibilities, this guide will also help you understand the backend stack.
-  
-### STEP 1:
-
- <strong>```Clone```</strong> main file 
-
-  ```
-      git clone https://github.com/Ranjith1022/ERPNext-Installation.git
-  ```
-  
-### STEP 2:
+ERPNext is a free and open-source integrated Enterprise Resource Planning software developed by Frappe Technologies Pvt. Ltd. and is built on MariaDB database system using Frappe, a Python based server-side framework. ERPNext is a generic ERP software used by manufacturers, distributors and services companies.
 
 
-  <strong>```Change```</strong> Directory
-   
-```
-  $ cd ERPNext-Installation
-```
+## 🚀 About Me
+I'm a System Engineer in [Amrita Vishwa Vidyapeetham](https://www.amrita.edu/),
+Amritapuri Campus.
 
 
-### STEP 3:
+## Documentation
+
+[Frappe Documentation](https://frappeframework.com/docs/v13/user/en/introduction)
+ The key difference in Frappe compared to other frameworks is that meta-data is also treated as data. This enables you to build front-ends very easily. We believe in a monolithic architecture, so Frappe comes with almost everything you need to build a modern web application. It has a full featured Admin UI called the Desk that handles forms, navigation, lists, menus, permissions, file attachment and much more out of the box.
+
+[ErpNext Documentation](https://docs.erpnext.com/docs/v13/user/manual/en/introduction)
+ERPNext is a full-featured business management solution that helps SMEs to record all their business transactions in a single system. With ERPNext, SMEs can make informed, fact-based, timely decisions to remain ahead of the competition. It serves as the backbone of a business adding strength, transparency, and control to your growing enterprise.
 
 
-  <strong>```Permission```</strong> to scripting file
-   
-```
-  $ sudo chmod +x erp-installation.sh
+## Features
+
+- Accounting
+- Warehouse Management
+- CRM
+- Sales
+- Purchase
+- HRMS
+- Project Management
+- Support
+- Asset Management
+- Quality Management
+- Manufacturing
+- Website Management
+- Customize ERPNext 14 And More
+ ```ERPNext``` is built on the ```Frappe Framework```, a full-stack web app framework built with Python & JavaScript.
+
+
+## Tech Stack
+
+**Client:** Python, JSON,
+
+**Server:** Node, Python3.10+, MySQL/MariaDB, Database driven apps.
+
+
+## Installation
+
+Before you can use Frappe, you need to install it. We have a complete installation guide which covers all possibilities, this guide will also help you understand the backend stack.
+
+    
+## Run Locally
+
+```Clone``` the project
+
+```bash
+  git clone https://github.com/Ranjith1022/ERPNext-Installation.git
 ```
 
-### STEP 4:
+Go to the ```project``` directory
 
-
-  <strong>```RUN```</strong> erp-installation script file
-   
+```bash
+  cd ERPNext-Installation
 ```
-  $ sh erp-installation.sh
-  
+
+Give ```Permission``` to the scripting file
+
+```bash
+$ sudo chmod +x erp-installation.sh
+```
+
+```RUN``` erp-installation script file
+
+```bash
+$ ./erp-installation.sh
 ```
 
 OR 
 
-```
-  
-  $ ./erp-installation.sh
-```
-
-
-### Finally:
-
-
-  <strong>```check```</strong> below URL
-  
-```
-  http://localhost:8000
+```bash
+$ sh erp-installation.sh
 ```
 
 
-#
+## Screenshots
 
-```diff
-Notes*:
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-- It's takes minimum one hour, based upon your internet connection
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-- If you have any ERROR or SOMETHING contact me through below email.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-+ Email:ranjithks@am.amrita.edu\
 
-- Once script fully completed refer below file path for installation credentials.
+## Author
 
-```
+- [@ranjithkumar sekar](https://www.github.com/Ranjith1022)
 
-:tada: "/home/{username}/frappe-framework/Project_Details.txt"
+
+## Support
+
+For support, email ranjithks@am.amrita.edu.
+
+
+## FAQ
+
+#### We cannot install requirements with python 3.8..?
+
+Frappe v14 only supports version of python3.10+.
+
+#### Finally, How we know the installation credentials and project details?
+
+/home/{username}/frappe-framework/Project-Details.txt
