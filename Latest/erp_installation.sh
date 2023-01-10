@@ -160,7 +160,7 @@ sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.a
 sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] https://ftp.icm.edu.pl/pub/unix/database/mariadb/repo/10.3/ubuntu focal main'
 sudo apt update
 sudo apt install -y mariadb-server
-
+sudo chmod 777 /etc/mysql/my.cnf
 printf "${bold}${green}
 Resources Installed...!
 ${offblod}${clear}\n"
@@ -213,6 +213,7 @@ $ _________________________$ ${clear}
 #(DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP).
 #The command is designed to work without user interaction.
 sudo apt-get install -y redis-server curl
+sudo chmod 644 /etc/mysql/my.cnf
 #  Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more.
 #Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
