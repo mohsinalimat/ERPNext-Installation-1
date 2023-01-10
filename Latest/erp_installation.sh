@@ -149,7 +149,7 @@ ${clear}"
 
 #This guide is a comprehensive resource for contributing to Python – for both new and experienced contributors.
 #It is maintained by the same community that maintains Python. We welcome your contributions to Python!
-sudo apt-get install python3-dev -y
+sudo apt-get install -y python3-dev python3.10-venv
 #Python Package Manager is a Python utility intended to simplify the tasks of locating, installing, upgrading and removing Python packages.
 #It can determine if the most recent version of a software package is installed on a system, and can install or upgrade that package from a local or remote host.
 sudo apt-get -y install python3-setuptools python3-pip virtualenv
