@@ -41,9 +41,9 @@ ERPNext is a full-featured business management solution that helps SMEs to recor
 
 ## Tech Stack
 
-**Client:** Python, JSON,
+**Client:** Database driven apps
 
-**Server:** Node, Python3.10+, MySQL/MariaDB, Database driven apps.
+**Server:** Node, Python3.10+, MySQL/MariaDB.
 
 
 ## Installation
