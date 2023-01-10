@@ -53,7 +53,7 @@ Before you can use Frappe, you need to install it. We have a complete installati
     
 ## Run Locally
 
-```Clone``` the project
+<strong>```Clone```</strong> the project
 
 ```bash
   git clone https://github.com/Ranjith1022/ERPNext-Installation.git
