@@ -229,6 +229,7 @@ sudo -H pip3 install frappe-bench
 cd ~
 #The iced drink is generally made up of water, espresso, sugar, milk, ice and is shaken, blended or beaten to combine the ingredients.
 #It tends to be served with whipped cream and toppings such as sweet sauces and presented in a tall glass. Traditionally a Frappé is made with coffee, but it doesn't have to be!
+sudo service mysql restart
 bench init frappe-framework --frappe-branch version-14
 cd frappe-framework/
 #Frappe Framework Tutorial. Install and Setup Bench. Create an App. Create a Site. Create a DocType. DocType Features
