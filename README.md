@@ -95,7 +95,7 @@ $ sh erp-installation.sh
 
 ## Author
 
-- [@ranjithkumar sekar](https://www.github.com/Ranjith1022)
+- [@Ranjithkumar Sekar](https://www.github.com/Ranjith1022)
 
 
 ## Support
