@@ -53,25 +53,25 @@ Before you can use Frappe, you need to install it. We have a complete installati
     
 ## Run Locally
 
-<strong>```Clone```</strong> the project
+<strong>```Clone```</strong> the script
 
 ```bash
   git clone https://github.com/Ranjith1022/ERPNext-Installation.git
 ```
 
-Go to the ```project``` directory
+Go to the <strong>```Script```</strong> directory
 
 ```bash
   cd ERPNext-Installation
 ```
 
-Give ```Permission``` to the scripting file
+Give <strong>```Permission```</strong> to the scripting file
 
 ```bash
 $ sudo chmod +x erp-installation.sh
 ```
 
-```RUN``` erp-installation script file
+<strong>```RUN```</strong> erp-installation script file
 
 ```bash
 $ ./erp-installation.sh
