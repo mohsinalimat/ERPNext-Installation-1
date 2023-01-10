@@ -60,7 +60,7 @@ ERPNext
   <strong>```Permission```</strong> to scripting file
    
 ```
-  $ sudo chmod +x install_erpnext.sh
+  $ sudo chmod +x erp-installation.sh
 ```
 
 ### STEP 4:
@@ -69,7 +69,11 @@ ERPNext
   <strong>```RUN```</strong> erp-installation script file
    
 ```
-  $ sh install_erpnext.sh
+  $ sh erp-installation.sh
+  
+  OR
+  
+  $ ./erp-installation.sh
 ```
 
 
