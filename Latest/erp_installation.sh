@@ -254,9 +254,9 @@ printf "${yellow}
 ${clear}
  _____________________________________________________________________________
 |                                                                             |
-| ${green}# Project Path:${clear}${red} /home/frappe-framework${clear}                                      |
+| ${green}# Project Path:${clear}${red} /home/username/frappe-framework${clear}                             |
 |                                                                             |
-| ${green}# Site Path: ${clear}${red} /home/frappe-framework/sites/ ${clear}                                  |
+| ${green}# Site Path: ${clear}${red} /home/username/frappe-framework/sites/ ${clear}                         |
 |                                                                             |
 | ${green}# MySQL root user Password: ${clear}${red} Erp@123 ${clear}                                         |
 |                                                                             |
@@ -264,7 +264,7 @@ ${clear}
 |                                                                             |
 | ${green}# Application Username: ${clear}${red} Administrator${clear}                                |
 |_____________________________________________________________________________|
-${red}Notes:${clear} ${blue}[Please check the ${clear} ${magenta}'/home/frappe-framework/Project_Details.txt'${clear}${blue} file for above Project Details]${clear}\n
+${red}Notes:${clear} ${blue}[Please check the ${clear} ${magenta}'/home/username/frappe-framework/Project_Details.txt'${clear}${blue} file for above Project Details]${clear}\n
 "
 
 
@@ -272,9 +272,9 @@ printf "
 ####################---Project Details---###################
  _____________________________________________________________________________
 |                                                                             |
-| # Project Path: /home/frappe-framework                                      |
+| # Project Path: /home/username/frappe-framework                             |
 |                                                                             |
-| # Site Path:  /home/frappe-framework/sites/                                 |
+| # Site Path:  /home/username/frappe-framework/sites/                        |
 |                                                                             |
 | # MySQL root user Password:  Erp@123                                        |
 |                                                                             |
