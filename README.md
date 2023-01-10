@@ -93,6 +93,19 @@ $ sh erp-installation.sh
 ![Upload soon](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
+```diff
+Notes*:
+
+- It's takes minimum one hour, based upon your internet connection
+
+- If you have any ERROR or SOMETHING contact me through below email.
+
++ Email:ranjithks@am.amrita.edu\
+
+- Once script fully completed refer below file path for installation credentials.
+
+```
+
 ## Author
 
 - [@Ranjithkumar Sekar](https://www.github.com/Ranjith1022)
