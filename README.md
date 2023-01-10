@@ -96,7 +96,7 @@ $ sh erp-installation.sh
 ```diff
 Notes*:
 
-- It's takes minimum one hour, based upon your internet connection
+- This installation takes minimum one hour, based upon your internet connection
 
 ```
 
