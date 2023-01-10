@@ -114,7 +114,7 @@ For support, email ranjithks@am.amrita.edu.
 
 #### We cannot install requirements with python 3.8..?
 
-Frappe v14 only supports version of python3.10+.
+Frappe v14 only supports version of python3.10+. **(Ubuntu 22.04)**
 
 #### After completing the script fully, How we know the installation credentials and project details?
 
