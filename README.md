@@ -116,6 +116,6 @@ For support, email ranjithks@am.amrita.edu.
 
 Frappe v14 only supports version of python3.10+.
 
-#### Finally, How we know the installation credentials and project details?
+#### After completing the script fully, How we know the installation credentials and project details?
 
 /home/{username}/frappe-framework/Project-Details.txt
