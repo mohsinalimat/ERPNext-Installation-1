@@ -159,7 +159,7 @@ sudo apt-get install software-properties-common
 sudo apt-key adv --fetch-keys 'https://mariadb.org/mariadb_release_signing_key.asc'
 sudo add-apt-repository 'deb [arch=amd64,arm64,ppc64el] https://ftp.icm.edu.pl/pub/unix/database/mariadb/repo/10.3/ubuntu focal main'
 sudo apt update
-sudo apt install mariadb-server
+sudo apt install -y mariadb-server
 
 printf "${bold}${green}
 Resources Installed...!
@@ -168,7 +168,7 @@ ${offblod}${clear}\n"
 #mysql_secure_installation is a shell script available on Unix systems, and enables you to improve the security of your MariaDB installation in the following ways: You can set a password for root accounts.
 #You can remove root accounts that are accessible from outside the local host.
 
-echo "[mysqld]
+sudo echo "[mysqld]
 character-set-client-handshake = FALSE
 character-set-server = utf8mb4
 collation-server = utf8mb4_unicode_ci
@@ -212,7 +212,7 @@ $ _________________________$ ${clear}
 #url is a tool to transfer data from or to a server, using one of the supported protocols 
 #(DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP).
 #The command is designed to work without user interaction.
-sudo apt-get install redis-server curl
+sudo apt-get install -y redis-server curl
 #  Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more.
 #Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.
 curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
@@ -222,7 +222,7 @@ sudo apt-get install -y nodejs
 sudo npm install -g yarn
 #wkhtmltopdf and wkhtmltoimage are open source (LGPLv3) command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine.
 #These run entirely "headless" and do not require a display or display service.
-sudo apt-get install xvfb libfontconfig wkhtmltopdf
+sudo apt-get install -y xvfb libfontconfig wkhtmltopdf
 # Bench is a CLI tool to manage Frappe Deployments. It provides an easy interface to help you setup and manage multiple sites and apps based on Frappe Framework.
 sudo -H pip3 install frappe-bench
 #The iced drink is generally made up of water, espresso, sugar, milk, ice and is shaken, blended or beaten to combine the ingredients.
