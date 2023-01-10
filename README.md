@@ -104,6 +104,6 @@ Notes*:
 
 - Once script fully completed refer below file path for installation credentials.
 
---- "/home/{username}/frappe-framework/Project_Details.txt"
+  * "/home/{username}/frappe-framework/Project_Details.txt"
 
 ```
