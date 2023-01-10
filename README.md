@@ -71,7 +71,11 @@ ERPNext
 ```
   $ sh erp-installation.sh
   
-  OR
+```
+
+OR 
+
+```
   
   $ ./erp-installation.sh
 ```
@@ -96,6 +100,8 @@ Notes*:
 
 - If you have any ERROR or SOMETHING contact me through below email.
 
-+ Email:ranjithks@am.amrita.edu
++ Email:ranjithks@am.amrita.edu\
+
+- Once script fully completed refer this file "/home/{username}/frappe-framework/Project_Details.txt" for installation credentials.
 
 ```
